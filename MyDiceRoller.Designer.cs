@@ -51,13 +51,13 @@
             // 
             // labelResult
             // 
-            this.labelResult.Font = new System.Drawing.Font("Tahoma", 64F, System.Drawing.FontStyle.Bold);
+            this.labelResult.AutoEllipsis = true;
+            this.labelResult.Font = new System.Drawing.Font("Tahoma", 48F, System.Drawing.FontStyle.Bold);
             this.labelResult.Location = new System.Drawing.Point(12, 9);
             this.labelResult.Name = "labelResult";
             this.labelResult.Size = new System.Drawing.Size(258, 92);
             this.labelResult.TabIndex = 1;
             this.labelResult.Text = "0";
-            this.labelResult.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // NumbDices
             // 
